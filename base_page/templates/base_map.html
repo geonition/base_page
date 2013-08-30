@@ -59,9 +59,9 @@
     {% endif %}
 </div>
 <div class="span_right hidden_for_small">
-    {% if request.META.HTTP_HOST == "demo.asiatkartalle.fi" %}
+    {% if IS_DEMO %}
     <div style="float:left">
-        <a href="/questionnaire_admin/">Kokeile hallintatyökalua!</a>
+        <a href="/questionnaire_admin/">{% trans "Try creating a questionnaire!" %}</a>
     </div>
     {% endif %}
     <div id="provider">
