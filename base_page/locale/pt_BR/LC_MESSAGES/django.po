@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: geonition\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-24 08:18-0500\n"
-"PO-Revision-Date: 2013-05-16 09:30+0000\n"
+"POT-Creation-Date: 2013-08-29 08:09-0500\n"
+"PO-Revision-Date: 2013-08-29 12:53+0000\n"
 "Last-Translator: ksnabb <kristoffer.snabb@geonition.org>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/geonition/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -21,101 +21,101 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: templates/base_map.html:5
+#: templates/base_map.html:6
 msgid "SoftGIS service for participative urban planning"
 msgstr " Serviço SoftGIS para planeamento urbano participativo"
 
-#: templates/base_map.html:42 templates/base_page.html:37
+#: templates/base_map.html:46 templates/base_page.html:38
 msgid "City"
 msgstr "Cidade"
 
-#: templates/base_map.html:51 templates/base_page.html:44
+#: templates/base_map.html:55 templates/base_page.html:45
 msgid "Help us improve our city"
 msgstr "Ajude-nos a melhorar a nossa cidade"
 
-#: templates/base_map.html:63
+#: templates/base_map.html:68
 msgid "Provided by"
 msgstr ""
 
-#: templates/base_map.html:76 templates/base_map.html.py:145
+#: templates/base_map.html:81 templates/base_map.html.py:150
 msgid "Hello"
 msgstr "Olá"
 
-#: templates/base_map.html:80 templates/base_map.html.py:164
+#: templates/base_map.html:85 templates/base_map.html.py:169
 msgid "profile"
 msgstr "perfil"
 
-#: templates/base_map.html:88 templates/base_map.html.py:148
+#: templates/base_map.html:93 templates/base_map.html.py:153
 msgid "sign out"
 msgstr "sair"
 
-#: templates/base_map.html:96 templates/base_map.html.py:103
-#: templates/base_map.html:170
+#: templates/base_map.html:101 templates/base_map.html.py:108
+#: templates/base_map.html:175
 msgid "sign in"
 msgstr "entrar"
 
-#: templates/base_map.html:97 templates/base_map.html.py:171
+#: templates/base_map.html:102 templates/base_map.html.py:176
 msgid "or"
 msgstr "ou"
 
-#: templates/base_map.html:98 templates/base_map.html.py:172
+#: templates/base_map.html:103 templates/base_map.html.py:177
 msgid "register"
 msgstr "registar"
 
-#: templates/base_map.html:99 templates/base_map.html.py:173
+#: templates/base_map.html:104 templates/base_map.html.py:178
 msgid "as a user"
 msgstr "como usuário"
 
-#: templates/base_map.html:102
-msgid "If you are admin,"
+#: templates/base_map.html:107
+msgid "Admin,"
 msgstr ""
 
-#: templates/base_map.html:109
+#: templates/base_map.html:114
 msgid "Change language:"
 msgstr ""
 
-#: templates/base_map.html:121 templates/base_map.html.py:179
-#: templates/base_page.html:69
+#: templates/base_map.html:126 templates/base_map.html.py:184
+#: templates/base_page.html:70
 msgid "Give feedback for the service"
 msgstr "Fazer sugestões"
 
-#: templates/base_map.html:151
+#: templates/base_map.html:156
 msgid "Change language of the service to"
 msgstr "Alterar o idioma do serviço para"
 
-#: templates/base_map.html:162
+#: templates/base_map.html:167
 msgid "Change your profile settings from here:"
 msgstr "Altere as configurações do seu perfil aqui:"
 
-#: templates/base_map.html:184
+#: templates/base_map.html:189
 msgid "This serivce is provided by"
 msgstr "Este serviço é fornecido por"
 
-#: templates/base_map.html:202
+#: templates/base_map.html:207
 msgid "Main"
 msgstr "Principal"
 
-#: templates/base_map.html:205
+#: templates/base_map.html:210
 msgid "Map"
 msgstr "Mapa"
 
-#: templates/base_map.html:208
+#: templates/base_map.html:213
 msgid "Settings"
 msgstr "Configurações"
 
-#: templates/base_page.html:54
+#: templates/base_page.html:55
 msgid "in"
 msgstr "em"
 
-#: templates/feedback.html:8
+#: templates/feedback.html:9
 msgid "Palautetta"
 msgstr "Comentários"
 
-#: templates/feedback.html:11
+#: templates/feedback.html:12
 msgid "You can write your feedback in the textbox below"
 msgstr "Você pode escrever o seu comentário na caixa de texto abaixo"
 
-#: templates/feedback.html:20
+#: templates/feedback.html:21
 msgid "Send feedback"
 msgstr "Enviar comentários"
 
