@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: geonition\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-29 19:00-0500\n"
-"PO-Revision-Date: 2013-08-31 08:30+0000\n"
+"POT-Creation-Date: 2013-08-30 19:00-0500\n"
+"PO-Revision-Date: 2013-09-01 00:00+0000\n"
 "Last-Translator: ksnabb <kristoffer.snabb@geonition.org>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/geonition/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -31,6 +31,10 @@ msgstr "Miasto"
 #: templates/base_map.html:55 templates/base_page.html:45
 msgid "Help us improve our city"
 msgstr "Pomóż ulepszyć miasto"
+
+#: templates/base_map.html:64
+msgid "Try creating a questionnaire!"
+msgstr ""
 
 #: templates/base_map.html:68
 msgid "Provided by"
