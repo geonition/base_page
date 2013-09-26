@@ -24,12 +24,10 @@ body {
 
 .span_left {
     float: left;
-    width: 370px;
     height: 100%;
 }
 .span_right {
     position: absolute;
-    left: 370px;
     right: 0px;
     height: 100%;
 }
