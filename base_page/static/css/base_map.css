@@ -19,6 +19,7 @@ body {
 
 .ui-widget {
     font-size: 1.0em !important;
+    font-weight: normal !important;
     font-family: 'Enriqueta', serif !important;
 }
 
