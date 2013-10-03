@@ -55,7 +55,9 @@ def feedback(request):
         if form.is_valid():
 
             cleaned_data = form.cleaned_data
-            cleaned_data['content'] = "%s \n url: %s \n user agent: %s" % (cleaned_data['content'],
+            cleaned_data['content'] = "%s \n url: %s%s \n user agent: %s" % (cleaned_data['content'],
+                                                                           request.META.get('HTTP_HOST',
+                                                                                            'unknown'),
                                                                            request.POST.get('next',
                                                                                             'unknown'),
                                                                            request.META.get('HTTP_USER_AGENT',
@@ -77,8 +79,8 @@ def feedback(request):
                                      'site': Site.objects.get_current().id,
                                      'next': next_page},
                                     context_instance=RequestContext(request))
-        
-        
+
+
 def osmextra(request):
     """
     This function is to provide the extra javascript for admin openstreetmap
