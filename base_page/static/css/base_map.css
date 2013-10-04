@@ -136,16 +136,15 @@ header .auth_container td {
 
 header .span_right {
     padding: 5px;
+    font-size: 12px;
 }
 header .span_right .login {
     float: right;
-    font-size: 11px;
 }
 
 #languages {
     width: 100px;
     float: right;
-    font-size: 0.75em;
     margin-right: 20px;
 }
 
@@ -260,7 +259,6 @@ footer a:visited {
     float: right;
     color: white;
     margin-right: 20px;
-    font-size: 0.75em;
 }
 
 footer .span_right {
@@ -279,7 +277,6 @@ footer .span_right {
     margin-right: 20px;
     margin-left: 20px;
     color: white;
-    font-size: 0.85em;
 }
 .center {
     width: 50%;
