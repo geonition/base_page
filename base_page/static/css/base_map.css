@@ -50,10 +50,11 @@ body {
 }
 
 header {
-    height: 53px;
+    height: 55px;
     overflow: hidden;
     width: 100%;
     font-family: sans-serif;
+    line-height: 1.2;
 }
 
 header .span_left {
@@ -154,7 +155,7 @@ header .span_right .login {
 #main {
     position: absolute;
     bottom: 0px;
-    top: 53px;
+    top: 55px;
     width: 100%;
     background-color: white;
     /*border-bottom-left-radius: 70px 70px;*/
