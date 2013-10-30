@@ -14,7 +14,7 @@ body {
     font-family: 'Enriqueta', serif;
     font-weight: 400;
     font-size: 14px;
-    color: #646464;
+    color: #333;
 }
 
 .ui-widget {
@@ -176,12 +176,12 @@ header .span_right .login {
     padding-left: 42px;
     font-family: 'Enriqueta', serif;
     font-size: 1em;
-    color: #646464;
+    color: #333;
 }
 #content label {
     font-family: 'Enriqueta', serif;
     font-size: 1em;
-    color: #646464;
+    color: #333;
 }
 #content h2 {
     padding: 0px;
