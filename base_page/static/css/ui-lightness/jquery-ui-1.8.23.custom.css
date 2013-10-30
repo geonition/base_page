@@ -371,8 +371,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
  *
  * http://docs.jquery.com/UI/Slider#theming
  */
-.form_element .ui-slider { position: relative; text-align: left; border: 1px solid #1faeae; }
-.form_element .ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: pointer; border: 1px solid #1faeae; }
+.form_element .ui-slider {background: #1faeae !important; position: relative; text-align: left; border: 1px solid #198B8B; }
+.form_element .ui-slider .ui-slider-handle {background: #fc6e6b !important; position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: pointer; border: 1px solid #CA5856; }
 .form_element .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
 
 .form_element .ui-slider-horizontal { height: .8em; }
