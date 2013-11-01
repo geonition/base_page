@@ -97,7 +97,7 @@ msgstr "Tämän palvelun tarjoaa"
 
 #: templates/base_map.html:207
 msgid "Main"
-msgstr "Sisältö"
+msgstr "Kysymykset"
 
 #: templates/base_map.html:210
 msgid "Map"
