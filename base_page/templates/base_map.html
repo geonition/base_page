@@ -151,15 +151,6 @@
 </div>
 <div id="settings" class="hidden_for_large">
     {% block settings %}
-    
-    {% if user.is_authenticated and user.has_usable_password %}
-    <p>        
-    {% trans "Hello"%} {{ user }}!
-    <br />
-    <a href="{% url 'logout' %}?next={{ request.path }}">
-        {% trans "sign out" %}
-    </a>
-    </p>
     <p>{% trans "Change language of the service to" %}:
     {% for lang in LANGUAGES %}
         {% ifnotequal LANGUAGE_CODE lang.0 %}
@@ -170,12 +161,15 @@
     {% endfor %}
     </p>
     
-    <p>
-    {% trans "Change your profile settings from here:" %}
-    <a href="{% url 'profile' %}?next={{ request.path }}">
-        {% trans "profile" %}
+    {% if user.is_authenticated and user.has_usable_password %}
+    <p>        
+    {% trans "Hello"%} {{ user }}!
+    <br />
+    <a href="{% url 'logout' %}?next={{ request.path }}">
+        {% trans "sign out" %}
     </a>
     </p>
+    
     
     {% else %}
     <p>
