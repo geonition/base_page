@@ -258,6 +258,7 @@ footer a:visited {
     float: right;
     color: white;
     margin-right: 20px;
+    width: 90px;
 }
 
 footer .span_right {
