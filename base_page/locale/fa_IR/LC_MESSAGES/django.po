@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: geonition\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-27 00:00+0000\n"
+"POT-Creation-Date: 2013-11-18 11:57+0200\n"
 "PO-Revision-Date: 2013-10-09 08:00+0000\n"
 "Last-Translator: sellonen <sakari.ellonen@mapita.fi>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/projects/p/geonition/"
@@ -20,91 +20,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: templates/base_map.html:7
-msgid "SoftGIS service for participative urban planning"
-msgstr ""
-
-#: templates/base_map.html:52 templates/base_page.html:38
+#: templates/base_map.html:54 templates/base_page.html:38
 msgid "City"
 msgstr ""
 
-#: templates/base_map.html:61 templates/base_page.html:45
+#: templates/base_map.html:63 templates/base_page.html:45
 msgid "Help us improve our city"
 msgstr ""
 
-#: templates/base_map.html:70
+#: templates/base_map.html:72
 msgid "Try creating a questionnaire!"
 msgstr ""
 
-#: templates/base_map.html:74
+#: templates/base_map.html:76 templates/base_map.html.py:190
 msgid "Provided by"
-msgstr ":ٍ‫تُيٍ شدٌ بٍ يسيل‬"
+msgstr "تهيه شده به وسيله  "
 
-#: templates/base_map.html:87 templates/base_map.html.py:156
+
+#: templates/base_map.html:89 templates/base_map.html.py:166
 msgid "Hello"
 msgstr ""
 
-#: templates/base_map.html:91 templates/base_map.html.py:175
+#: templates/base_map.html:93
 msgid "profile"
 msgstr ""
 
-#: templates/base_map.html:99 templates/base_map.html.py:159
+#: templates/base_map.html:101 templates/base_map.html.py:169
 msgid "sign out"
-msgstr "‫خريج‬"
+msgstr "خروج"
 
-#: templates/base_map.html:107 templates/base_map.html.py:114
-#: templates/base_map.html:181
+#: templates/base_map.html:109 templates/base_map.html.py:116
+#: templates/base_map.html:176
 msgid "sign in"
-msgstr "‫يريد‬"
+msgstr "ورود"
 
-#: templates/base_map.html:108 templates/base_map.html.py:182
+#: templates/base_map.html:110 templates/base_map.html.py:177
 msgid "or"
 msgstr ""
 
-#: templates/base_map.html:109 templates/base_map.html.py:183
+#: templates/base_map.html:111 templates/base_map.html.py:178
 msgid "register"
 msgstr ""
 
-#: templates/base_map.html:110 templates/base_map.html.py:184
+#: templates/base_map.html:112 templates/base_map.html.py:179
 msgid "as a user"
 msgstr ""
 
-#: templates/base_map.html:113
+#: templates/base_map.html:115
 msgid "Admin,"
 msgstr ""
 
-#: templates/base_map.html:120
-msgid "Change language:"
-msgstr "‫تغيير زبان‬"
-
-#: templates/base_map.html:132 templates/base_map.html.py:190
+#: templates/base_map.html:133 templates/base_map.html.py:185
 #: templates/base_page.html:70
 msgid "Give feedback for the service"
-msgstr "‫بازخًرد‬"
+msgstr "بازخورد"
 
-#: templates/base_map.html:162
+#: templates/base_map.html:154
 msgid "Change language of the service to"
 msgstr ""
 
-#: templates/base_map.html:173
-msgid "Change your profile settings from here:"
-msgstr ""
-
-#: templates/base_map.html:195
-msgid "This serivce is provided by"
-msgstr ""
-
-#: templates/base_map.html:213
+#: templates/base_map.html:208
 msgid "Main"
 msgstr "‫پرسشَا‬"
 
-#: templates/base_map.html:216
+#: templates/base_map.html:211
 msgid "Map"
-msgstr "ٍ‫وقش‬"
+msgstr "نقشه"
 
-#: templates/base_map.html:219
+#: templates/base_map.html:214
 msgid "Settings"
-msgstr "‫تىظيمات‬"
+msgstr "تنظيمات"
 
 #: templates/base_page.html:55
 msgid "in"
@@ -129,3 +114,6 @@ msgstr ""
 #: templates/admin/base_site.html:7
 msgid "softGIS administration"
 msgstr ""
+
+#~ msgid "Change language:"
+#~ msgstr "‫تغيير زبان‬"
