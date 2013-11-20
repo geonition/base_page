@@ -213,6 +213,7 @@ header .span_right .login {
     bottom: 0px;
     left: 0px;
     right: 0px;
+    -ms-touch-action: none;
 }
 /* ie 7 fix for openlayers */
 .lt-ie8 .olMapViewport {
