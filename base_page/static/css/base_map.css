@@ -20,7 +20,7 @@ body {
 .ui-widget {
     font-size: 1.0em !important;
     font-weight: normal !important;
-    font-family: 'Enriqueta', serif !important;
+    font-family: Cambria, Georgia, serif !important;
 }
 
 .span_left {
@@ -174,12 +174,12 @@ header .span_right .login {
 #content p {    
     padding-right: 10px;
     padding-left: 42px;
-    font-family: 'Enriqueta', serif;
+    font-family: Cambria, Georgia, serif;
     font-size: 1em;
     color: #333;
 }
 #content label {
-    font-family: 'Enriqueta', serif;
+    font-family: Cambria, Georgia, serif;
     font-size: 1em;
     color: #333;
 }
@@ -295,7 +295,7 @@ ul.breadcrumb li {
     display: inline-block;
     text-transform: uppercase;
     vertical-align: middle;
-    font-family: 'Enriqueta', serif;
+    font-family: Cambria, Georgia, serif;
     font-weight: 400;
     font-size: 16px;
     padding-top: 7px;
